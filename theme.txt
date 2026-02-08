@@ -1,0 +1,72 @@
+# GLOBAL #
+title-text: ""
+desktop-image: "background.png"
+desktop-color: "#000000"
+
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-font: "AdwaitaMono-15"
+
+# TOP AND TITLE #
++ label {
+    text = "Hello, World!"
+    font = "AdwaitaMono-20"
+    left = 860
+    top = 300
+    align = "center"
+    color = "#ffffff"
+}
+
++ label {
+    id = "__timeout__"
+    text = "Make your choice in %d"
+    font = "AdwaitaMono-15"
+    left = 810
+    top = 320
+    align = "center"
+    color = "#ffffff"
+}
+
+# CENTER AND MENU #
++ boot_menu {
+    font = "AdwaitaMono-15"
+    left = 660
+    top = 400
+    width = 600
+    height = 260
+
+    item_height = 30
+    item_spacing = 5
+
+    item_color = "#ffffff"
+    selected_item_color = "#000000"
+    selected_item_pixmap_style = "selected_box_*.png"
+}
+
+# BOTTOM AND HELP #
++ label {
+    text = "↑ and ↓ to move selection"
+    font = "AdwaitaMono-20"
+    left = 800
+    top = 680
+    align = "center"
+    color = "#ffffff"
+}
+
++ label {
+    text = "ENTER to select OS"
+    font = "AdwaitaMono-20"
+    left = 840
+    top = 710
+    align = "center"
+    color = "#ffffff"
+}
+
++ label {
+    text = "ESC to stop timer"
+    font = "AdwaitaMono-20"
+    left = 850
+    top = 740
+    align = "center"
+    color = "#ffffff"
+}
