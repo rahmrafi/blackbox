@@ -29,7 +29,14 @@ GRUB_GFXMODE=auto
 ```
 > Set GRUB_THEME to theme location, GRUB_GFXMODE can be set to auto or 1920x1080, and make sure GRUB_TERMINAL_OUTPUT is commented out.
 
-5. Reboot your system
+5. Update grub configuration
+```
+sudo grub-mkconfig -o /boot/grub/grub.cfg (for arch based!)
+
+sudo update-grub (for ubuntu or debian based!)
+```
+
+6. Reboot your system
 
 ## Notes 📝
 > **This theme is intended for desktop screens with a resolution of 1920x1080 pixels, if the display is less precise than this, it needs to be adjusted in theme.txt. Change left and top on each label and boot_menu to match your screen resolution.**
