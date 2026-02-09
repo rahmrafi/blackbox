@@ -18,8 +18,6 @@ sudo cp -r blackbox /boot/grub/theme/
 3. Edit GRUB configuration
 ```
 sudo nano /etc/default/grub
-
-GRUB_THEME="/boot/grub/themes/blackbox/theme.txt"
 ```
 4. Important parts
 ```
@@ -29,7 +27,7 @@ GRUB_GFXMODE=auto
 
 #GRUB_TERMINAL_OUTPUT=console
 ```
-> GRUB_GFXMODE can be set to auto or 1920x1080, and make sure GRUB_TERMINAL_OUTPUT is commented out.
+> Set GRUB_THEME to theme location, GRUB_GFXMODE can be set to auto or 1920x1080, and make sure GRUB_TERMINAL_OUTPUT is commented out.
 
 5. Reboot your system
 
